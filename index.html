@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+</head>
+  <<body>
+      <div id = "calArea">
+        <div>
+          <h2><span>Enter the amount of item: </span><input id = "amount" type="text" placeholder ="Amout of item"</h2>
+          <div>
+            <h2>Select the amount Given: </h2>
+            <ul id = "amountGiven">
+              <li><button value = "20">$20</button></li>
+              <li><button value = "10">$10</button></li>
+              <li><button value = "5">$5</button></li>
+              <li><button value = "nextdollar">Next Dollar</button></li>
+              <li><button value = "exactdollar">Exact Dollar</button></li>
+              <li><input type="text" placeholder="Enter a Different Amount" id = "otherAmount"></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Change to be given:<span id = "changeDisplay"></span>
+            <div id = "change">
+              $20: <span id = "20" ></span>
+              $10: <span id = "10"></span>
+              $5: <span id = "5"></span>
+              $1: <span id = "1"></span>
+              $0.25: <span id = "quarter"></span>
+              $0.10: <span id = "dime"></span>
+              $0.05: <span id = "nickel"></span>
+              $0.01: <span id = "penny"></span>
+            </div></h2>
+          </div>
+        </div>
+      </div>
+      <script src = "cal.js">
+      </script>
+  </body>
+</html>
