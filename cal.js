@@ -4,6 +4,7 @@ $("#change>span").html("")
 $("#otherAmount").change(function(){
   var actualAmmount = $(amount).val()
   var change = this.value- actualAmmount;
+    $("#changeDisplay").html(change)
   changeCal(change);
 })
   var givenAmount = $("ul>li>button")
