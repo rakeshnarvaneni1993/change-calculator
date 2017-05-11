@@ -1,0 +1,38 @@
+body {
+  width:100%;
+  height:100%;
+  font-family: 'Baloo', cursive;
+}
+#calArea {
+  width:60%;
+  margin-left: 20%;
+  background-color: #9fa9a8;
+  padding:20px;
+}
+ul{
+  list-style-type: none;
+  margin-left: 0;
+}
+li{
+  float:left;
+  margin:5px;
+}
+li>button{
+  background-color: #7e9fb9;
+  font-family: 'Baloo', cursive;
+  height:40px;
+  width:100px;
+
+}
+input{
+  width:200px;
+  height:40px;
+  font-family: 'Baloo', cursive;
+}
+#changeDisplay{
+  color:red;
+  margin-left: 5px;
+}
+#change>span{
+  color:red
+}
